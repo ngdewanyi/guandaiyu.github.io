@@ -15,10 +15,7 @@ about:
       href: https://github.com/ngdewanyi
     - icon: solid user
       text: ORCID
-      href: https://orcid.org/
-    - icon: 📝
-      text: CV
-      href: CV.pdf  
+      href: https://orcid.org/  
 ---
 
 ::: {#hero-heading}

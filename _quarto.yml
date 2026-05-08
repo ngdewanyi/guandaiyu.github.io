@@ -26,8 +26,6 @@ website:
         href: research.qmd
       - text: "中文"
         href: Chinese.qmd
-      - text: "CV"
-        href: CV.pdf
 
 format:
   html:
