@@ -11,7 +11,9 @@ editor: visual
 
 - **Beyond Mixed-Ownership Reform: Strategic Alliances as a Flexible Policy Lever for SOE Innovation.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma. (Under review at *Economic Analysis and Policy*)
 
-- **The Effect of Cross-Ownership Strategic Alliances on SOE Investment Efficiency: Evidence from China.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma.
+- **The Effect of Cross-Ownership Strategic Alliances on SOE Investment Efficiency: Evidence from China.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma.  (Under review at *Asia Pacific Journal of Management*)
+
+- **Leadership Discontinuity and Corporate Resilience: Evidence from CEO Turnover** Co-authored with Yihan Ding, Dongbin Luo.
 
 ## Research Interests
 
