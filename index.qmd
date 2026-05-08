@@ -31,6 +31,12 @@ My work employs empirical methods to examine how institutional arrangements—su
   GPA: 3.788 / 4.0  
   GRE: V 162 / Q 170 / AW 3.5
 
+## Skills
+
+- **Stata**: Proficient in data cleaning, regression analysis, and various robustness checks including PSM, event study, placebo tests, and instrumental variable estimation. Capable of independently completing all empirical components of CSSCI-standard research papers.
+- **OpenCode**: Skilled in batch web scraping, downloading and processing unstructured data and academic literature with high efficiency.
+- **Guitar**
+
 ## Research Experience
 
 - **Part-time Research Fellow**, Institute of Applied Accounting, Ocean University of China  
