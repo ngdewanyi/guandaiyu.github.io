@@ -1,6 +1,6 @@
 ---
 title: "Daiyu Guan"
-image: images/daiyu_guan.jpeg
+image: images/daiyu_guan.jpg
 about:
   id: hero-heading
   template: trestles
