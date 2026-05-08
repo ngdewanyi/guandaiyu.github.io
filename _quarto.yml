@@ -1,35 +1,29 @@
 project:
   type: website
   output-dir: docs
-  
+   
 website:
   page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
+  title: "Daiyu Guan"
+  site-url: https://ngdewanyi.github.io
   favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
+  repo-url: https://github.com/ngdewanyi/lianyujun.github.io
   repo-actions: [edit, issue]
-  
+   
   page-footer:
     left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
+      Ocean University of China<br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
-    
+     
   navbar: 
-    background: "#A9CCE3"
+    background: "#1a5276"
     search: true
     right: 
       - text: "Home"
         href: index.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Books"
-        href: books.qmd
-      - text: "Blogs"
-        href: blog.qmd
-      - text: "Codes"
-        href: codes.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "中文"
         href: Chinese.qmd
       - text: "CV"
@@ -38,6 +32,6 @@ website:
 format:
   html:
     theme: styles.scss
-    toc: true            # 启用目录
-    toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    toc: true
+    toc-position: right
+    toc-depth: 3

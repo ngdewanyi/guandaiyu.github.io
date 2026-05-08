@@ -1,0 +1,21 @@
+---
+title: "Research"
+editor: visual
+---
+
+## Publications
+
+- 马新啸, 殷正香, 黄晓珊, **管戴煜**. 产权权利束分割与国有企业 ESG 表现——基于中央企业分红权激励试点的准自然实验[J]. 外国经济与管理, 2025, 47(07): 20-36. [DOI](https://doi.org/10.16538/j.cnki.fem.20250401.203)
+
+## Working Papers
+
+- **Beyond Mixed-Ownership Reform: Strategic Alliances as a Flexible Policy Lever for SOE Innovation.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma. (Under review at *Economic Analysis and Policy*)
+
+- **The Effect of Cross-Ownership Strategic Alliances on SOE Investment Efficiency: Evidence from China.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma.
+
+## Research Interests
+
+- Corporate Governance
+- State-Owned Enterprise Reform
+- ESG and Sustainability
+- Strategic Alliances and Innovation
