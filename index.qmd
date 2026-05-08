@@ -10,9 +10,6 @@ about:
     - icon: mailbox
       text: gdy6666662021@163.com
       href: mailto:gdy6666662021@163.com
-    - icon: github
-      text: ngdewanyi
-      href: https://github.com/ngdewanyi
     - icon: solid user
       text: ORCID
       href: https://orcid.org/  

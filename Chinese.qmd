@@ -11,7 +11,6 @@ editor:
 
 - 邮箱：gdy6666662021@163.com
 - 地址：山东省青岛市崂山区松岭路238号，中国海洋大学管理学院（邮编：266100）
-- GitHub: <https://github.com/ngdewanyi>
 
 ## 教育背景
 
