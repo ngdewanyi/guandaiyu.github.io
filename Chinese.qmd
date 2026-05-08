@@ -35,7 +35,7 @@ editor:
 
 ### 工作论文
 
- -**Beyond Mixed-Ownership Reform: Strategic Alliances as a Flexible Policy Lever for SOE Innovation.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma. 
+- **Beyond Mixed-Ownership Reform: Strategic Alliances as a Flexible Policy Lever for SOE Innovation.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma. 
 
 - **The Effect of Cross-Ownership Strategic Alliances on SOE Investment Efficiency: Evidence from China.** Co-authored with Shuang Wu, Yifan Wu, Xinxiao Ma.  (Under review at *Asia Pacific Journal of Management*)
 
