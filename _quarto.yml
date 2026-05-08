@@ -30,6 +30,7 @@ website:
 format:
   html:
     theme: styles.scss
+    css: assets/style.css
     toc: true
     toc-position: right
     toc-depth: 3

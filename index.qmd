@@ -1,21 +1,21 @@
 ---
 title: "Daiyu Guan"
-image: images/daiyu_guan.jpg
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 12em
-  image-shape: round
-  links:
-    - icon: mailbox
-      text: gdy6666662021@163.com
-      href: mailto:gdy6666662021@163.com
-    - icon: solid user
-      text: ORCID
-      href: https://orcid.org/  
 ---
 
-::: {#hero-heading}
+```{=html}
+<div class="hero">
+<div class="glass hero-card">
+<img src="images/daiyu_guan.jpg" alt="Daiyu Guan" class="avatar">
+<h1 class="dynamic-title"><span class="title-gradient">Daiyu Guan</span></h1>
+<p class="subtitle">Undergraduate Researcher | Corporate Governance &amp; ESG</p>
+<div class="social-links">
+<a href="mailto:gdy6666662021@163.com">Email</a>
+<span class="dot-sep">·</span>
+<a href="https://orcid.org/">ORCID</a>
+</div>
+</div>
+</div>
+```
 
 I am an undergraduate student at Ocean University of China, majoring in Accounting (ACCA Direction) at the College of Management. My research interests lie in corporate governance, state-owned enterprise (SOE) reform, and ESG performance. I am currently a part-time research fellow at the Institute of Applied Accounting, Ocean University of China, focusing on strategic alliance networks and their impact on corporate behavior.
 
@@ -43,5 +43,3 @@ My work employs empirical methods to examine how institutional arrangements—su
 
 - National Scholarship, Ministry of Education, 2024
 - First Prize Scholarship, Ocean University of China, 2024
-
-::: 
