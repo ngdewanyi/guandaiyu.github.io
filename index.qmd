@@ -32,6 +32,7 @@ My work employs empirical methods to examine how institutional arrangements—su
 - **Stata**: Proficient in data cleaning, regression analysis, and various robustness checks including PSM, event study, placebo tests, and instrumental variable estimation. Capable of independently completing all empirical components of CSSCI-standard research papers.
 - **OpenCode**: Skilled in batch web scraping, downloading and processing unstructured data and academic literature with high efficiency.
 - **Guitar**
+- **Plum Blossom Divination** (梅花易数)
 
 ## Research Experience
 
