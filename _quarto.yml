@@ -26,6 +26,8 @@ website:
         href: research.qmd
       - text: "中文"
         href: Chinese.qmd
+      - text: "Data"
+        href: data.qmd
 
 format:
   html:

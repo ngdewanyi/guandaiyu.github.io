@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Books – Daiyu Guan</title>
+<title>Hurun Baidu Index Dataset – Daiyu Guan</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">中文</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data.html"> 
+    <a class="nav-link active" href="./data.html" aria-current="page"> 
 <span class="menu-text">Data</span></a>
   </li>  
 </ul>
@@ -120,15 +120,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hurun-baidu-index-dataset-胡润百度指数" id="toc-hurun-baidu-index-dataset-胡润百度指数" class="nav-link active" data-scroll-target="#hurun-baidu-index-dataset-胡润百度指数">Hurun Baidu Index Dataset (胡润百度指数)</a>
+  <ul class="collapse">
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#data-files" id="toc-data-files" class="nav-link" data-scroll-target="#data-files">Data Files</a></li>
+  <li><a href="#download" id="toc-download" class="nav-link" data-scroll-target="#download">Download</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ngdewanyi/guandaiyu.github.io/edit/main/data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ngdewanyi/guandaiyu.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Books</h1>
+<h1 class="title">Hurun Baidu Index Dataset</h1>
 </div>
 
 
@@ -145,9 +157,91 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon.</p>
+<section id="hurun-baidu-index-dataset-胡润百度指数" class="level2">
+<h2 class="anchored" data-anchor-id="hurun-baidu-index-dataset-胡润百度指数">Hurun Baidu Index Dataset (胡润百度指数)</h2>
+<blockquote class="blockquote">
+<p><strong>本数据仅供学术研究使用，请勿用于商业用途。</strong> This dataset is for academic research purposes only. Not for commercial use.</p>
+</blockquote>
+<section id="description" class="level3">
+<h3 class="anchored" data-anchor-id="description">Description</h3>
+<p>This dataset contains Baidu Search Index data for the keyword “Hurun” (胡润) across 31 provinces, autonomous regions, and municipalities in China, spanning from January 1, 2011 to December 31, 2025. The data was collected via web scraping using OpenCode.</p>
+</section>
+<section id="data-files" class="level3">
+<h3 class="anchored" data-anchor-id="data-files">Data Files</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 48%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>File</th>
+<th>Description</th>
+<th>Format</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>baidu_index_hurun_province_year.dta</code></td>
+<td>Provincial annual panel data (31 provinces × 15 years)</td>
+<td>Stata (.dta)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provincial daily CSV files</strong> (31 files): Daily Baidu Index by province, named as <code>百度指数_胡润_[Province]_20110101_20251231.csv</code></p>
+</section>
+<section id="download" class="level3">
+<h3 class="anchored" data-anchor-id="download">Download</h3>
+<ul>
+<li><a href="data/hurun_baidu_index/baidu_index_hurun_province_year.dta">baidu_index_hurun_province_year.dta</a></li>
+</ul>
+<p><strong>Provincial daily data:</strong></p>
+<ul>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_上海市_20110101_20251231.csv">百度指数_胡润_上海市_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_云南省_20110101_20251231.csv">百度指数_胡润_云南省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_内蒙古自治区_20110101_20251231.csv">百度指数_胡润_内蒙古自治区_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_北京市_20110101_20251231.csv">百度指数_胡润_北京市_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_台湾省_20110101_20251231.csv">百度指数_胡润_台湾省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_吉林省_20110101_20251231.csv">百度指数_胡润_吉林省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_四川省_20110101_20251231.csv">百度指数_胡润_四川省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_天津市_20110101_20251231.csv">百度指数_胡润_天津市_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_宁夏回族自治区_20110101_20251231.csv">百度指数_胡润_宁夏回族自治区_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_安徽省_20110101_20251231.csv">百度指数_胡润_安徽省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_山东省_20110101_20251231.csv">百度指数_胡润_山东省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_山西省_20110101_20251231.csv">百度指数_胡润_山西省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_广东省_20110101_20251231.csv">百度指数_胡润_广东省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_广西壮族自治区_20110101_20251231.csv">百度指数_胡润_广西壮族自治区_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_江苏省_20110101_20251231.csv">百度指数_胡润_江苏省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_江西省_20110101_20251231.csv">百度指数_胡润_江西省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_河北省_20110101_20251231.csv">百度指数_胡润_河北省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_河南省_20110101_20251231.csv">百度指数_胡润_河南省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_浙江省_20110101_20251231.csv">百度指数_胡润_浙江省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_海南省_20110101_20251231.csv">百度指数_胡润_海南省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_湖北省_20110101_20251231.csv">百度指数_胡润_湖北省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_湖南省_20110101_20251231.csv">百度指数_胡润_湖南省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_澳门特别行政区_20110101_20251231.csv">百度指数_胡润_澳门特别行政区_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_甘肃省_20110101_20251231.csv">百度指数_胡润_甘肃省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_福建省_20110101_20251231.csv">百度指数_胡润_福建省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_西藏自治区_20110101_20251231.csv">百度指数_胡润_西藏自治区_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_贵州省_20110101_20251231.csv">百度指数_胡润_贵州省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_辽宁省_20110101_20251231.csv">百度指数_胡润_辽宁省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_重庆市_20110101_20251231.csv">百度指数_胡润_重庆市_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_陕西省_20110101_20251231.csv">百度指数_胡润_陕西省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_青海省_20110101_20251231.csv">百度指数_胡润_青海省_20110101_20251231.csv</a></li>
+<li><a href="data/hurun_baidu_index/百度指数_胡润_黑龙江省_20110101_20251231.csv">百度指数_胡润_黑龙江省_20110101_20251231.csv</a></li>
+</ul>
+</section>
+<section id="citation" class="level3">
+<h3 class="anchored" data-anchor-id="citation">Citation</h3>
+<p>If you use this dataset in your research, please cite:</p>
+<blockquote class="blockquote">
+<p>Guan, Daiyu. (2026). Hurun Baidu Index Dataset (2011-2025). [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html</p>
+</blockquote>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -558,7 +652,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ngdewanyi/guandaiyu.github.io/edit/main/books.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ngdewanyi/guandaiyu.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ngdewanyi/guandaiyu.github.io/edit/main/data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ngdewanyi/guandaiyu.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>
