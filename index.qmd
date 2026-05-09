@@ -30,7 +30,7 @@ My work employs empirical methods to examine how institutional arrangements—su
 ## Skills
 
 - **Stata**: Proficient in data cleaning, regression analysis, and various robustness checks including PSM, event study, placebo tests, and instrumental variable estimation. Capable of independently completing all empirical components of CSSCI-standard research papers.
-- **OpenCode**: Skilled in batch web scraping, downloading and processing unstructured data and academic literature with high efficiency.
+- **OpenCode**: Skilled in batch web scraping, downloading and processing unstructured data and academic literature with high efficiency. Achievements: Hurun Baidu Index dataset (胡润百度指数) — for academic use only.
 - **Guitar**
 - **Plum Blossom Divination**
 
