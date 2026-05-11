@@ -1,5 +1,5 @@
 ---
-title: "Hurun Baidu Index Dataset"
+title: "Datasets"
 ---
 
 ## Hurun Baidu Index Dataset (胡润百度指数)
@@ -62,6 +62,10 @@ This dataset contains Baidu Search Index data for the keyword "Hurun" (胡润) a
 
 If you use this dataset in your research, please cite:
 
+> Guan, Daiyu. (2026). Hurun Baidu Index Dataset (2011-2025). [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html
+
+---
+
 ## Michelin Restaurant Dataset (米其林餐厅)
 
 > **本数据仅供学术研究使用，请勿用于商业用途。**
@@ -85,4 +89,4 @@ This dataset contains information on Michelin-starred restaurants in China, coll
 
 If you use this dataset in your research, please cite:
 
-> Guan, Daiyu. (2026). Hurun Baidu Index Dataset (2011-2025). [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html
+> Guan, Daiyu. (2026). Michelin Restaurant Dataset. [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html
