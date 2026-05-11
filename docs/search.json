@@ -32,7 +32,7 @@
     "href": "data.html#michelin-restaurant-dataset-米其林餐厅",
     "title": "Datasets",
     "section": "Michelin Restaurant Dataset (米其林餐厅)",
-    "text": "Michelin Restaurant Dataset (米其林餐厅)\n\n本数据仅供学术研究使用，请勿用于商业用途。 This dataset is for academic research purposes only. Not for commercial use.\n\n\nDescription\nThis dataset contains information on Michelin-starred restaurants in China, collected via web scraping using OpenCode.\n\n\nData Files\n\n\n\n\n\n\n\n\nFile\nDescription\nFormat\n\n\n\n\n米其林餐厅_all.xlsx\nComprehensive dataset of Michelin restaurants\nExcel (.xlsx)\n\n\n\n\n\nDownload\n\n米其林餐厅_all.xlsx\n\n\n\nCitation\nIf you use this dataset in your research, please cite:\n\nGuan, Daiyu. (2026). Michelin Restaurant Dataset. [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html"
+    "text": "Michelin Restaurant Dataset (米其林餐厅)\n\n本数据仅供学术研究使用，请勿用于商业用途。 This dataset is for academic research purposes only. Not for commercial use.\n\n\nDescription\nThis dataset contains information on Michelin-starred restaurants in China, collected via web scraping using OpenCode.\n\n\nData Files\n\n\n\n\n\n\n\n\nFile\nDescription\nFormat\n\n\n\n\n米其林2026截面数据.xlsx\nComprehensive dataset of Michelin restaurants\nExcel (.xlsx)\n\n\n\n\n\nDownload\n\n米其林2026截面数据.xlsx\n\n\n\nCitation\nIf you use this dataset in your research, please cite:\n\nGuan, Daiyu. (2026). Michelin Restaurant Dataset. [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html"
   },
   {
     "objectID": "books.html",

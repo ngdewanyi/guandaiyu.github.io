@@ -79,11 +79,11 @@ This dataset contains information on Michelin-starred restaurants in China, coll
 
 | File | Description | Format |
 |------|-------------|--------|
-| `米其林餐厅_all.xlsx` | Comprehensive dataset of Michelin restaurants | Excel (.xlsx) |
+| `米其林2026截面数据.xlsx` | Comprehensive dataset of Michelin restaurants | Excel (.xlsx) |
 
 ### Download
 
-- [米其林餐厅_all.xlsx](data/米其林餐厅_all.xlsx)
+- [米其林2026截面数据.xlsx](data/米其林2026截面数据.xlsx)
 
 ### Citation
 
