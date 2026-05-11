@@ -62,4 +62,27 @@ This dataset contains Baidu Search Index data for the keyword "Hurun" (胡润) a
 
 If you use this dataset in your research, please cite:
 
+## Michelin Restaurant Dataset (米其林餐厅)
+
+> **本数据仅供学术研究使用，请勿用于商业用途。**
+> This dataset is for academic research purposes only. Not for commercial use.
+
+### Description
+
+This dataset contains information on Michelin-starred restaurants in China, collected via web scraping using OpenCode.
+
+### Data Files
+
+| File | Description | Format |
+|------|-------------|--------|
+| `米其林餐厅_all.xlsx` | Comprehensive dataset of Michelin restaurants | Excel (.xlsx) |
+
+### Download
+
+- [米其林餐厅_all.xlsx](data/米其林餐厅_all.xlsx)
+
+### Citation
+
+If you use this dataset in your research, please cite:
+
 > Guan, Daiyu. (2026). Hurun Baidu Index Dataset (2011-2025). [Data set]. Available at: https://ngdewanyi.github.io/guandaiyu.github.io/data.html
