@@ -32,7 +32,9 @@ My work employs empirical methods to examine how institutional arrangements—su
 - **Stata**: Proficient in data cleaning, regression analysis, and various robustness checks including PSM, event study, placebo tests, and instrumental variable estimation. Capable of independently completing all empirical components of CSSCI-standard research papers.
 - **Python**: Proficient in web scraping, data processing, and automation using Python.
 - **OpenCode**: Skilled in batch web scraping, downloading and processing unstructured data and academic literature with high efficiency. Achievements: [Hurun Baidu Index dataset](data.qmd) (胡润百度指数), [Michelin Restaurant dataset](data.qmd#michelin-restaurant-dataset-米其林餐厅) (米其林餐厅) — for academic use only.
-- **Guitar**: Currently practicing: Dawes, Mike. "Somebody That I Used to Know." Candyrat Records, 2012. Next (planned): Dawes, Mike. "Everlong." Qten Records, 2024.
+- **Guitar**  
+  Currently practicing: Dawes, Mike. "Somebody That I Used to Know" (2012, Candyrat Records)  
+  Next (planned): Dawes, Mike. "Everlong" (2024, Qten Records)
 - **Plum Blossom Divination**
 
 ## Research Experience
