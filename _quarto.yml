@@ -36,3 +36,6 @@ format:
     toc: true
     toc-position: right
     toc-depth: 3
+
+resources:
+  - data/
