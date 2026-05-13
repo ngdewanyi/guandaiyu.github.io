@@ -21,7 +21,7 @@ editor:
 - **Stata**：熟练运用 Stata 进行数据清洗与回归分析，擅长多种稳健性检验方法，包括 PSM、事件研究法、安慰剂检验、工具变量法等，能够独立完成 C 刊标准实证论文的全部实证部分，已有一篇见刊，多篇论文在投及在审。
 - **Python**：能够运用 Python 爬取数据、进行数据处理与自动化操作。
 - **OpenCode**：擅长使用 OpenCode 批量爬取、下载及处理非结构化数据与文献，效率极高。成果：[胡润百度指数](data.qmd)、[米其林餐厅数据](data.qmd#michelin-restaurant-dataset-米其林餐厅)（Michelin Restaurant）——本数据仅供学术研究使用，请勿用于商业用途。
-- **吉他**
+- **吉他**：正在练习：Dawes, Mike. "Somebody That I Used to Know." Candyrat Records, 2012。下一首（预计）：Dawes, Mike. "Everlong." Qten Records, 2024。
 - **梅花易数**
 
 ## 科研经历
