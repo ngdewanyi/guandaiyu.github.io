@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docs/old
    
 website:
   page-navigation: true
@@ -28,6 +28,8 @@ website:
         href: Chinese.qmd
       - text: "Data"
         href: data.qmd
+      - text: "新版 →"
+        href: ../index.html
 
 format:
   html:
