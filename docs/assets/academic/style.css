@@ -1,0 +1,228 @@
+/* ==========================================
+   Daiyu Guan — Minimal Academic Theme
+   White paper background, navy ink, serif headings
+   ========================================== */
+
+:root {
+  --ink: #203746;
+  --muted: #647481;
+  --link: #315f7d;
+  --line: #dce3e7;
+  --paper: #ffffff;
+  --soft: #f6f8f9;
+  --serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", SimSun, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --maxw: 820px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #dfe9ee; }
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  text-underline-offset: 4px;
+  transition: color 0.15s ease;
+}
+a:hover { color: var(--ink); text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+
+strong { font-weight: 600; }
+.muted { color: var(--muted); }
+
+/* ===== Top navigation ===== */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.nav-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0.85rem 1.5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8rem 1.5rem;
+  flex-wrap: wrap;
+}
+.nav-brand {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.nav-brand:hover { color: var(--ink); text-decoration: none; }
+.nav-brand .cn {
+  margin-left: 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+.nav-links { display: flex; flex-wrap: wrap; gap: 1.35rem; }
+.nav-links a { color: var(--muted); font-size: 0.9rem; }
+.nav-links a:hover { color: var(--ink); text-decoration: none; }
+
+/* ===== Layout ===== */
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem; }
+main { padding-bottom: 2.5rem; }
+section, header.hero { scroll-margin-top: 76px; }
+
+h2 {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+  margin: 2.9rem 0 1.3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  margin: 1.6rem 0 0.6rem;
+}
+
+p { max-width: 72ch; margin-bottom: 1rem; }
+
+/* ===== Hero ===== */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2.8rem;
+  align-items: start;
+  padding-top: 3.2rem;
+}
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  margin-bottom: 0.35rem;
+}
+.hero h1 .cn {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.62em;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+.hero-role { color: var(--muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.3rem; }
+.hero-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+}
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  margin-top: 1.4rem;
+  font-size: 0.95rem;
+}
+
+/* ===== Selected research ===== */
+.selected {
+  margin-top: 2.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+.sel-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.selected ul { list-style: none; }
+.selected li { padding: 0.4rem 0; font-size: 0.93rem; line-height: 1.65; }
+.selected .meta { color: var(--muted); font-size: 0.88rem; }
+.selected .more { margin-top: 0.5rem; font-size: 0.9rem; }
+
+/* ===== Research / data entries ===== */
+.entry { padding: 1.15rem 0; border-bottom: 1px solid var(--line); }
+.entry-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+.entry-title { font-size: 1rem; font-weight: 600; line-height: 1.55; margin-bottom: 0.25rem; }
+.entry-meta { font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
+.entry-links {
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  align-items: baseline;
+}
+.entry .citation { margin-top: 0.45rem; font-size: 0.85rem; }
+
+/* ===== Plain lists ===== */
+ul.plain { list-style: none; }
+ul.plain > li { padding: 0.45rem 0; max-width: 72ch; }
+
+/* ===== Interests line ===== */
+.interests { margin-top: 1.6rem; font-size: 0.92rem; color: var(--muted); }
+.interests strong { color: var(--ink); }
+
+/* ===== Details / collapsible ===== */
+details { margin: 0.5rem 0; font-size: 0.88rem; }
+details summary { cursor: pointer; color: var(--link); }
+details summary:hover { color: var(--ink); }
+details ul { margin: 0.5rem 0 0.2rem 1.2rem; }
+details li { margin: 0.15rem 0; font-size: 0.85rem; }
+
+/* ===== Footer ===== */
+footer { border-top: 1px solid var(--line); margin-top: 3rem; }
+.footer-inner { padding: 1.4rem 1.5rem 2.6rem; }
+.footer-inner p { color: var(--muted); font-size: 0.85rem; margin: 0; }
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  body { font-size: 15px; line-height: 1.75; }
+  .wrap { padding: 0 1.2rem; }
+  .nav-inner { padding: 0.7rem 1.2rem; }
+  .nav-links { gap: 1rem; }
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.4rem;
+    padding-top: 2rem;
+  }
+  .hero-photo { width: 104px; height: 104px; }
+  h2 { font-size: 1.3rem; margin-top: 2.3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
